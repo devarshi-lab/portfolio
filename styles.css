@@ -131,3 +131,45 @@ footer {
   background: #111;
   color: #aaa;
 }
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+.muted {
+  color: #777;
+  font-size: 14px;
+}
+
+.list {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #dd0031;
+  font-weight: 600;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
