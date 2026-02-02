@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #222;
+  background: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #dd0031, #c3002f);
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #ffd2d2;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+}
+
+.hero-content h1 span {
+  color: #ffd2d2;
+}
+
+.hero-content p {
+  margin: 15px 0 30px;
+  font-size: 18px;
+}
+
+.buttons .btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: white;
+  color: #dd0031;
+}
+
+.secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.section.dark {
+  background: #f6f6f6;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  font-weight: 600;
+}
+
+.project {
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-left: 5px solid #dd0031;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.project h3 {
+  color: #dd0031;
+}
+
+.project span {
+  font-size: 14px;
+  color: #666;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  color: #aaa;
+}
